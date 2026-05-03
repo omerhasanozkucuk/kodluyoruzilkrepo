@@ -1,0 +1,31 @@
+Merge Sort Projesi 
+Proje 2
+
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+1.Adım :
+[16, 21, 11] ve [8, 12, 22] olarak ayır.
+2.Adım :
+Sol taraf tekrar bölünür: [16] ve [21, 11]
+3.Adım :
+[21, 11] parçası da bölünür. -> [21] ve[11]
+4.Adım :
+Sırada sağ tarın bölünmesi var. -> [8] ve [12, 22]
+5.Adım : 
+[12, 22]  parçası da bölünür. -> [12] ve [22]
+Sırada birleştirmeye geçme var.
+6.Adım :
+[21] ve [11] karşılaştırılır. 11 < 21 olduğu için sıralama: [11, 21].
+7.Adım :
+Şimdi elimizde [16] ve [11, 21] var. -> [11, 16, 21]
+8.Adım :
+[12] ve [22] karşılaştırılır: [12, 22].
+9.Adım :
+[8] ve [12, 22] karşılaştırılır: [8, 12, 22]
+10.Adım :
+Sıralanan sol ve sağ taraf birleştirilir ve sıralanır. -> [8, 11, 12, 16, 21, 22]
+
+Big-O : O(nlogn) 
