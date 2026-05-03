@@ -1,1 +1,77 @@
 Binary Search Tree Projesi
+Proje 3
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Dizinin ilk elemanı olan 7' yi kök seçtik.
+
+Sonra 5'i ekliyoruz:
+       7
+     /
+    5
+Ve bu adımı sırayle tüm elemanlara uyguluyoruz:
+1 için :
+       7
+     /
+    5
+   /
+  1
+8 için :
+      7
+     / \
+    5   8
+   /
+  1
+3 için :
+      7
+     / \
+    5   8
+   /
+  1
+   \
+    3
+6 için :
+      7
+     / \
+    5   8
+   / \
+  1   6
+   \
+    3
+0 için :
+        7
+       / \
+      5   8
+     / \
+    1   6
+   / \
+  0   3
+9 için :
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   / \
+  0   3
+4 için :
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   / \
+  0   3
+       \
+        4
+2 için :
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   / \
+  0   3
+     / \
+    2   4 
+Ve 2'yi eklememizle birlikte Binary Search Tree oluşmuş oldu
